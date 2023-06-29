@@ -53,3 +53,4 @@ Você poderá baixar e instalar em seu site posteriormente.
 
 Ressaltamos que este é um fork do tema fornecido pela [Ghost Foundation](https://ghost.org) e está publicado utilizando a licença [MIT](LICENSE).
 Para acessar o tema original, fornecido pela Ghost, esse é o repositório: https://github.com/TryGhost/Headline
+

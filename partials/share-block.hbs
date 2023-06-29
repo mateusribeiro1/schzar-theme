@@ -1,0 +1,30 @@
+{{#is "post"}}
+<div class="gh-read-next gh-canvas">
+    <section class="gh-pagehead">
+        <h4 class="gh-pagehead-title">{{t "Share"}}</h4>
+    </section>
+    <div class="share-block">
+        <a href="https://twitter.com/intent/tweet?url={{url absolute='true'}}&amp;text={{encode title}}" 
+        target="_blank" 
+        rel="noopener"
+        title="{{t "Share on"}} Twitter"
+        aria-label="{{t "Share on"}} Twitter">
+            {{> icons/twitter}}
+        </a>
+       <a href="https://www.facebook.com/sharer.php?u={{url absolute='true'}}" 
+        target="_blank" 
+        rel="noopener"
+        title="{{t "Share on"}} Facebook"
+        aria-label="{{t "Share on"}} Facebook">
+            {{> icons/facebook}}    
+        </a>
+        <a href="https://wa.me/?text={{url absolute="true"}}" 
+        target="_blank" 
+        rel="noopener"
+        title="{{t "Share on"}} WhatsApp"
+        aria-label="{{t "Share on"}} WhatsApp">
+            {{> icons/whatsapp}} 
+        </a>
+    </div>
+</div>
+{{/is}}
