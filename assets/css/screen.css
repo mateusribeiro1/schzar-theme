@@ -162,7 +162,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px;
 }
 
 .gh-topic-grid .gh-card-wrapper {
@@ -354,7 +353,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .gh-article-image img {
     width: 100%;
-    border-radius: 12px;
 }
 
 .gh-article-sidebar {
@@ -909,4 +907,9 @@ body:not(.home-template) .gh-topic-grid .gh-card {
         margin-top: -6px;
         line-height: 1;
     }
+}
+
+img {
+    height: auto;
+    border-radius: 12px;
 }
